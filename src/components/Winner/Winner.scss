@@ -1,0 +1,39 @@
+.winner {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 40vh;
+    text-align: center;
+}
+
+.congratz {
+    font-size: 72px;
+    color: #da1a8a;
+}
+
+.took {
+    font-size: 36px;
+    color: #da1a8a;
+}
+
+.time {
+    font-size: 24px;
+    color: #da1a8a;
+}
+
+.again {
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid #da1a8a;
+    background-color: transparent;
+    padding: 10px 30px;
+    font-size: 24px;
+    color: #da1a8a;
+    transition: color 500ms ease, background-color 500ms ease;
+}
+
+.again:hover {
+    color: #ffffff;
+    background-color: #da1a8a;;
+}
